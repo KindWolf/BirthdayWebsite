@@ -1,5 +1,10 @@
-body{
-                background-color: black;
-     			color: white;           
-                text-align: center;
-    }
+p{
+            text-align: center;
+            font-family: fantasy;
+        }
+
+
+.important{
+            color: #AA0000;
+            font-size: 40px;
+        }
