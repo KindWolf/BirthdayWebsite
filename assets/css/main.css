@@ -1,10 +1,20 @@
 p{
             text-align: center;
-            font-family: fantasy;
+            font-family: cursive;
+            color: black;
+            text-shadow: 2px 2px 0 lightgrey;
+            margin: 0;
+            padding: 0;
+            user-select: none;
+            margin-top: 100px;
+
         }
 
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(http://best-funnycatsanddogs.com/uploads/posts/2015-12/24_irish_setter.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
 
-.important{
-            color: #AA0000;
-            font-size: 40px;
-        }
+}
