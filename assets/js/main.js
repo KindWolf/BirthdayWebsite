@@ -19,11 +19,14 @@ $( document ).ready(function() {
 
 
 			if(counter < list.length){
-				$("#displayP").text(list[counter]);
-				$("#displayP").addClass("animated fadeInDown");
-				$("#displayP").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
-					$('displayP').removeClass("animated fadeInDown");
-				});
+				$('#displayP').text(list[counter]);
+				$('#displayP').ready(function(){
+                $('#displayP').on('click', function(){
+                    $('displayP').addClass("animated shake").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+                        $(this).removeClass("animated shake");
+                    });
+                });
+            })
 				console.log("counter number is: ", counter);
 				counter ++;
 			}
