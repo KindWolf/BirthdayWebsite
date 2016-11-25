@@ -1,6 +1,7 @@
 p{
             text-align: center;
-            font-family: cursive;
+            font-family: georgia;
+            font-size: 30px;
             color: black;
             text-shadow: 2px 2px 0 lightgrey;
             margin: 0;
@@ -17,4 +18,12 @@ body{
 	background-size: cover;
 	background-repeat: no-repeat;
 
+}
+
+#sideWindow{
+	background-color: white;
+	height: 50vh;
+	width: 30vh;
+	float: left;
+	text-align: left;
 }

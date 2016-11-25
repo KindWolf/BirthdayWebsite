@@ -28,8 +28,13 @@ $( document ).ready(function() {
 				counter ++;
 			}
 			else{
-				$("#counterDisplay").text("Puppies:" + score);
-				score++;
+				if(counter === 10){
+
+				}
+				else{
+					$("#counterDisplay").text("Puppies: " + score);
+					score++;
+				}
 			}
 	}	
 })
